@@ -1,0 +1,22 @@
+div#memory_board{
+    background: white;
+    border: black 3px solid;
+    width: 700px;
+    height: 700px;
+    padding: 24px;
+    margin: 50px auto;
+}
+
+div#memory_board > div{
+    background: url(images/meerkat.jpeg) no-repeat;
+    border: #000 1px solid;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 45px;
+    cursor: pointer;
+    text-align: center;
+}
+
